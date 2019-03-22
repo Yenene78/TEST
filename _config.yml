@@ -5,7 +5,7 @@
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "http://www.ar-lab.cn"
-baseurl: ""
+baseurl: "/TEST/"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -24,19 +24,19 @@ navbar-font: 120px
 
 # List of links in the navigation bar
 navbar-links:
-  About: "/TEST"
-  News: "/TEST/news"
+  About: ""
+  News: "news"
   People: 
-    - Current Members: "/TEST/current"
-    - Lab Alumni: "/TEST/alumni"
-    - Lab Visitors: "/TEST/Visitors"
+    - Current Members: "current"
+    - Lab Alumni: "alumni"
+    - Lab Visitors: "Visitors"
   # Publication: "shanghaitecharlab.github.io/publication/"
   Research: "research"
   Join Us: "join"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/TEST/img/avatar-icon.jpg"
+avatar: "img/avatar-icon.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
