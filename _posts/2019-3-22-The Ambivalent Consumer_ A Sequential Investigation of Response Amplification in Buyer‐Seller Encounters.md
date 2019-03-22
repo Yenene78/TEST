@@ -1,4 +1,7 @@
 ---
-title: Contact me
-subtitle: Here you'll find all the ways to get in touch with me
+layout: default
+title: 你好，世界
 ---
+<h2>{{ page.title }}</h2>
+<p>HelloWorld</p>
+<p>{{ page.date | date_to_string }}</p>
